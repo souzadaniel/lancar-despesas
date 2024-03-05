@@ -41,5 +41,5 @@ function semNumeros (e){
         return true
     }}
 
-//FUNÇÃO PARA NÃO COLOCAR LETRAS NO CAMPO VALOR.
+    
 
