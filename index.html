@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../lancar-despesas/icone_pagina.png">
+    <link rel="stylesheet" href="../lancar-despesas/index.css">
+    <title>Cadastro de Despesas</title>
+</head>
+
+<body>
+    <h1>Cadastramento de Despesas</h1>
+
+    <form>
+        <label for="nomeDespesa">Descrição da Despesa:
+            <input type="text" id="nomeDespesa" required placeholder="Digite o nome da despesa">
+        </label>
+        <br>
+        <label for="valorDespesa"> Valor da Despesas R$:
+            <input type="number" id="valorDespesa" required placeholder="Digite o valor da despesa">
+        </label>
+        <br>
+        <input type="submit" id="botao" value="Registrar Despesa">
+    </form>
+
+    <pre id="saida1"></pre>
+    <pre id="saida2"></pre>
+
+
+    <script src="../lancar-despesas/index.js"></script>
+</body>
+
+</html>
